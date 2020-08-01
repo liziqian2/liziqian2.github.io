@@ -1,38 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Liziqian's personal website</title>
-	<link rel="icon" href="/favicon.ico" type="images/x-ico" />
+<html lang="zh-Hans"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Liziqian 's website</title>
+    <link rel="icon" href="/favicon.ico" type="images/x-ico">
+    <style>
+        /* BDM v0.0.0 */
+        body {
+            background-color: #191919;      /* good background color with dark mode */
+        }
+        h1,h2,h3 {
+            color: #fff;
+        }
+        p {
+            color: rgb(163,163,163);
+        }
+        a {
+            color: #03e9f4;
+            text-decoration: none;
+        }
+        #an:hover {
+            text-decoration: underline;
+        }
+        button {
+            outline: none;
+            color: #03e9f4;                 /* good color with dark mode */
+            border: none;
+            background-color: #191919;
+        }
+        button:hover {
+            background-color: #03e9f4;
+            color: #050801;                 /* bad button color #NEEDCOLOR# */
+            box-shadow: 0 0 5px #03e9f4,
+	                    0 0 25px #03e9f4,
+		                0 0 50px #03e9f4,
+		                0 0 200px #03e9f4;
+        }
+        .nav, .footer {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        #fta {
+            color: gray !important;
+            text-decoration: none;
+        }
+        #fta:hover {
+            color: gray !important;
+            text-decoration: underline;
+        }
+        #fzxs {
+            font-family: fzxs;
+        }
+        @font-face {
+            font-family:fzxs;
+            src:url("FZXIANGSU16.TTF");
+        }
+        #act {
+            background-color: #2c2c2c;
+            width: 85%;
+            margin-left: 35px;
+            word-break: break-all;
+            box-shadow: 0 0 1px #03e9f4,
+	                    0 0 5px #03e9f4,
+		                0 0 10px #03e9f4,
+		                0 0 40px #03e9f4;
+        }
+        #act p {
+            margin-left: 30px;
+            margin-right: 15px;
+        }
+        #act h3 {
+            padding-left: 10px;
+            padding-top: 7px;
+        }
+		#egg{
+			color: #191919;
+		}
+        audio {
+            display: flex;
+        }
+    </style>
 </head>
 <body>
-    <h1>Liziqian's personal website</h1>
-    <a href="/index.html" target="_blank">简体中文</a><br/><br/>
-    <p>A simple website.<br/>My Bilibili account:李梓迁<br/></p>
-</body>
-<body>
-    <img src="/images/myface.jpg">
-	<a href="http://space.bilibili.com/318457694" target="_blank">My Bilibili homepage</a>
-</body>
-<body>
-    <br/>
-    <a href="/en/downloads/index.html" target="_blank">
-	<button>Downloads(not available)</button>
-    </a>
-    <br/>
-    <a href="/en/happyplus/index.html" target="_blank">
-	<button>Happy Plus(not available)</button>
-    </a>
-</body>
-<body>
-    <p><br/><br/>Here's some music :D<br/></p>
-</body>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="https://music.163.com/outchain/player?type=0&id=2294177964&auto=1&height=430"></iframe>
-<body>
-    <p><br/><br/><br/><br/></p>
-    <a href="mailto:liziqian99@qq.com">
-    <button>Send feedback</button>
-    </a>
-    <p><br/></p>   
-</body>
-</html>
+    <h1 style="text-align: center;">Liziqian 's website</h1>
+    <p style="text-align: end;">-- A pjb website.</p>
+    <p style="text-align: center;"><a href="/main.html" target="_blank" id="an">简体中文</a> | English</p>
+    <hr>
+
+    <div class="nav">
+        <a href="https://blog.liziqian.ml/">
+        <button>Blog(Unavailable)</button>
+        </a>
+        <a href="/happyplus/index.html" target="_blank">
+        <button>Happyplus(Unavailable)</button>
+        </a><br>
+    </div>
+    <h2>活动 --untranslated</h2>
+    <div id="act">
+        <h3>李梓迁个人网站解密</h3>
+        <p>
+            现在就去liziqian.ml参加活动，赢取现金奖励<br><br>
+            <a href="/">前往解密 ></a>或
+            <a href="https://www.bilibili.com/video/BV1ch411d7rA">了解更多 ></a>
+        </p>
+    </div>
+    <h2 id="fzxs">Developers</h2>
+        <p id="fzxs">站长：李梓迁 (<a href="mailto:liziqian99@qq.com" id="an">发邮件</a> | <a href="http://space.bilibili.com/318457694" id="an">B站主页</a> | <a href="https://www.douyu.com/liziqian" id="an">斗鱼直播间</a>)</p>
+        <p id="fzxs">网页改进：Bobby0xE9 (<a href="mailto:mczsjzsjz@outlook.com" id="an">发邮件</a> | <a href="http://space.bilibili.com/376957286" id="an">B站主页</a>)</p>
+
+    <hr>
+    <div class="footer">
+        <p style="font-size: x-small;">本网站使用<a href="//pages.github.com" id="fta">GitHub Pages</a> | UI by <a href="https://bobby233.github.io/bdm/" id="fta" target="_blank">BDM</a></p>
+        <p style="text-align: center;"><img src="/images/myface.jpg"></p>
+    </div>
+
+    <audio src="https://www.csgola.com/Public/csgo_music/danielsadowski_03/mainmenu.mp3" autoplay="autoplay" controls="controls" loop="loop">Sorry,your browser doesn't support HTML5 audio play :(</audio>
+	<button id="egg" onclick="console.log('Congratulations!You found an easter egg.')">.</button><!--并没有用的彩蛋--!>
+	<!--因为/bgm.mp3太卡，使用外链--!>
+</body></html>
