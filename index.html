@@ -54,9 +54,7 @@
 <body>
 	<script type="text/javascript">
 	function copyAddr(){
-		var Url1=document.getElementById("mc");
-		Url1.select();
-		document.execCommand("Copy");
+		window.clipboardData.setData("Text","mc.liziqian.ml");
 		alert("已复制，请在游戏中粘贴。");
 	}
 	</script>
