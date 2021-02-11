@@ -1,3 +1,18 @@
+/* Bobby Dark Mode 介绍
+    * 此UI使用了目前网络上主流的色彩进行配色
+    * 并且使用了Google的Matieral Design进行配色[和排版]
+    * 此版本为lzq-v0.0.0(分支版本 由lzq修改)
+    * 如有改进请联系bobby(mczsjzsjz@outlook.com)
+*/
+/* html{
+	webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+	filter: gray;
+} */
 body {
     background-color: #191919;      /* good background color with dark mode */
 }
@@ -47,8 +62,12 @@ button:hover,#btnon {
 }
 @font-face {
     font-family:fzxs;
-    src:url("/FZXIANGSU16.TTF");
+    src:url("/fonts/FZXIANGSU16.TTF");
 	font-display: swap;
+}
+.mc{
+    font-family:fzxs;
+    color:#ffffff;
 }
 #act {
     background-color: #2c2c2c;
