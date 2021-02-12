@@ -20,7 +20,7 @@ h1,h2,h3 {
     color: #fff;
     align: center;
 }
-p,li,pre {
+p,li,pre,summary {
     color: rgb(163,163,163);
 }
 a {
