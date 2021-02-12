@@ -62,7 +62,7 @@ button:hover,#btnon {
 }
 @font-face {
     font-family:fzxs;
-    src:url("/fonts/FZXIANGSU16.TTF");
+    src:url("/font/FZXIANGSU16.TTF");
 	font-display: swap;
 }
 .mc{
